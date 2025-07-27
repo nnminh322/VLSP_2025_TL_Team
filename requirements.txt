@@ -1,0 +1,21 @@
+# Core ML/DL
+torch
+transformers
+# faiss-cpu or faiss-gpu depending on your system
+faiss-cpu
+qdrant-client
+
+# Data Handling
+numpy
+pandas
+Pillow
+
+# Evaluation
+scikit-learn
+
+# Optional for API
+# fastapi
+# uvicorn
+
+# Utilities
+tqdm # For progress bars during training/processing
