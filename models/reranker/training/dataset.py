@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from typing import List, Dict, Any
 from torch.utils.data import Dataset
+import torch
+
 
 class RerankerDataset(Dataset):
     """
