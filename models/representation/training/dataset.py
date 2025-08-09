@@ -16,9 +16,8 @@ class EncoderDataset(Dataset):
             data (List[Dict[str, Any]]): Danh sách dữ liệu, mỗi phần tử là một dict
                                          chứa 'image_file' và 'caption'.
             image_dir (str): Thư mục chứa các file ảnh.
-            processor: Processor của model (ví dụ: CLIPProcessor) để xử lý ảnh và text.
+            processor: Processor của model (ví dụ: BLIPProcessor) để xử lý ảnh và text.
         """
-        self.data = data
         self.image_dir = image_dir
         self.processor = processor
 
